@@ -8,6 +8,7 @@
     display: flex;
     border-radius: 5%;
 }
+
 .square img {
     position: absolute;
     top: 50%;
@@ -37,10 +38,14 @@ body{
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-  background-color: #9CB2F2;
+  overflow-x: hidden;
+
+}
+.bgColor2{
+    background-color: #9CB2F2;
 }
 
-h1{
+.h1Text{
     margin-top: 10%;
     color: rgb(255, 255, 255);
     font-family: "Jost", sans-serif;
@@ -70,3 +75,130 @@ h1{
     cursor: pointer;
     transform: translate(-50%, -50%) scale(1.1);
 }
+
+.bg-light-purple {
+    background-color: #e0e0f8;
+}
+
+.sidebar {
+    height: 100vh;
+    border-right: 1px solid #ddd;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.chat-area {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    max-width: 70%;
+}
+
+.chat-messages {
+    max-height: 70vh;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.chat-input-container {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    
+}
+
+.input-container img {
+    cursor: pointer; 
+}
+
+.user{
+    background-color: #f6d02e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    padding-right: 80%;
+    margin-bottom: 10px;
+    cursor: default;
+}
+
+.games{
+    background-color: #FF98E6;
+    color: #ffffff;
+    padding-top: 1%;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7ch;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.315);
+    cursor: default;
+}
+
+.msg{
+    border-radius: 50%;       
+    padding: 1% 2%;   
+    font-size: 1.5rem;         
+    line-height: 1;        
+         
+}
+.textMsg{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+    z-index: 1;
+    cursor: default;
+}
+
+.textMsg-bg {
+    background-color: #e0e0e0; 
+    padding: 10px; 
+    border-radius: 5px; 
+    border-radius: 0 20px 20px 0; 
+    display: inline-block;
+}
+
+.chatUser{
+margin-left: 2%;
+}
+
+.names{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+    cursor: default;
+}
+
+
+.bgColor1{
+    background-color: #FF98E6; 
+}
+.marginName{
+    margin-top: 50%;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem; 
+    font-size: 0.5rem; 
+    line-height: 1; 
+    height: 25px;
+    width: auto;
+    text-align: center;
+}
+
+.btn-outline-danger {
+    border-width: 1px; 
+    border-radius: 0.2rem; 
+}
+
